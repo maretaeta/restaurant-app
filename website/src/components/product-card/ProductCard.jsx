@@ -2,16 +2,17 @@ import React from "react";
 import "./product-card.css";
 
 const ProductCard = (props) => {
-  const { title, imgUrl, price } = props.item;
+  const { name, image, price } = props.item;
 
   return (
     <div className="single__product">
       <div className="product__img">
-        <img src={imgUrl} alt="" className="w-100" />
+        <img src={image} alt="" className="gambar" />
       </div>
 
       <div className="product__content">
         <div className="rating text-center">
+          <br />
           <span>
             <i class="ri-star-s-fill"></i>
           </span>
@@ -29,7 +30,7 @@ const ProductCard = (props) => {
           </span>
         </div>
 
-        <h6>{title}</h6>
+        <h6>{name}</h6>
 
         <div className=" d-flex align-items-center justify-content-between">
           <span className="price d-flex align-items-center">
