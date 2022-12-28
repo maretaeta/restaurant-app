@@ -30,7 +30,7 @@ const Testimonials = () => {
 
 
   return (
-    <section>
+    <section id="faq">
       <Container>
         <Row>
           <Col lg="8" sm="12" md="12" className="m-auto">

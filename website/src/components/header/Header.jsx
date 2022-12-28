@@ -6,24 +6,24 @@ import { Container } from "reactstrap";
 const navLinks = [
   {
     display: "Home",
-    url: "#",
+    url: "/",
   },
   {
     display: "About",
-    url: "#",
+    url: "#footer",
   },
 
   {
     display: "Menu",
-    url: "#",
+    url: "#menu",
   },
   {
-    display: "Recipes",
-    url: "#",
+    display: "FAQ",
+    url: "#faq",
   },
   {
     display: "Contact",
-    url: "#",
+    url: "#footer",
   },
 ];
 
