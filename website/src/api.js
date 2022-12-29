@@ -20,3 +20,8 @@ export const getProfile = async () => {
   const profile = await axios.get(`${baseUrl}/api/profile/`);
   return profile.data;
 };
+
+export const getOpening = async () => {
+    const opening = await axios.get(`${baseUrl}/api/opening-hour/`);
+    return opening.data;
+}

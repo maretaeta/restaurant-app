@@ -1,0 +1,18 @@
+.wrap-opening{
+    display: flex;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    margin-right: 12px;
+}
+.wrap-opening p {
+    margin-left: 12px;
+    margin-right: 24px;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+}
+marquee{
+
+    margin-top: 30px;
+}
