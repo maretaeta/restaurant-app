@@ -1,40 +1,28 @@
 import React, { useState, useEffect } from "react";
-
+import { getMenuCategories, getMenuList } from "../../api";
 import { Container, Row, Col } from "reactstrap";
-
-import ProductCard from "../product-card/ProductCard";
-import {
-  fastFoodProducts,
-  riceMenuProducts,
-  pizzaProducts,
-  dessertProducts,
-  coffeeProducts,
-} from "../../assets/fake-data/products";
 import "./menu-pack.css";
+import ProductCard from "../product-card/ProductCard";
 
 const MenuPack = () => {
-  const [filter, setFilter] = useState("RICE-MENU");
-  const [products, setProducts] = useState(riceMenuProducts);
+  const [categories, setMenuCategories] = useState([]);
+  const [menuList, setMenuList] = useState([]);
+  const [dataCategories, setDataCategories] = useState([]);
+  const [filter, setFilter] = useState("");
+
+  const handleFilter = (name) => {
+    setFilter(name);
+    setDataCategories(menuList.filter((list) => list.category === name));
+  };
 
   useEffect(() => {
-    if (filter === "RICE-MENU") {
-      setProducts(riceMenuProducts);
-    }
-    if (filter === "FAST-FOOD") {
-      setProducts(fastFoodProducts);
-    }
+    getMenuCategories().then((result) => {
+      setMenuCategories(result);
+    });
 
-    if (filter === "PIZZA") {
-      setProducts(pizzaProducts);
-    }
-
-    if (filter === "DESSERT") {
-      setProducts(dessertProducts);
-    }
-
-    if (filter === "COFFEE") {
-      setProducts(coffeeProducts);
-    }
+    getMenuList().then((result) => {
+      setMenuList(result);
+    });
   }, [filter]);
 
   return (
@@ -45,51 +33,23 @@ const MenuPack = () => {
             <h3 className="menu__title">Our Menu Pack</h3>
           </Col>
           <Col lg="12" className="text-center mb-5">
-            <button
-              className={`filter-btn ${
-                filter === "FAST-FOOD" ? "active__btn" : ""
-              }`}
-              onClick={() => setFilter("FAST-FOOD")}
-            >
-              Fast Food
-            </button>
-            <button
-              className={`filter-btn ${
-                filter === "RICE-MENU" ? "active__btn" : ""
-              }`}
-              onClick={() => setFilter("RICE-MENU")}
-            >
-              Rice Menu
-            </button>
-            <button
-              className={`filter-btn ${
-                filter === "PIZZA" ? "active__btn" : ""
-              }`}
-              onClick={() => setFilter("PIZZA")}
-            >
-              Pizza
-            </button>
-            <button
-              className={`filter-btn ${
-                filter === "DESSERT" ? "active__btn" : ""
-              }`}
-              onClick={() => setFilter("DESSERT")}
-            >
-              Desserts
-            </button>
-            <button
-              className={`filter-btn ${
-                filter === "COFFEE" ? "active__btn" : ""
-              }`}
-              onClick={() => setFilter("COFFEE")}
-            >
-              Coffee
-            </button>
+            {categories.map((item) => (
+              <button
+                className={`filter-btn ${
+                  item.name === filter ? "active__btn" : ""
+                }`}
+                onClick={() => handleFilter(item.name)}
+                key={item.id}
+              >
+                <span>{item.name}</span>
+              </button>
+            ))}
           </Col>
 
-          {products.map((item) => (
+          {console.log(dataCategories)}
+          {dataCategories.map((item) => (
             <Col lg="3" md="4" sm="6" xs="6" key={item.id} className="mb-4">
-              {" "}
+              {""}
               <ProductCard item={item} />
             </Col>
           ))}
