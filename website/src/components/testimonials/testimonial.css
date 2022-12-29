@@ -1,9 +1,9 @@
-.single__testimonial h6 {
+.single__testimonial h5 {
   color: #f5b70a;
   font-size: 1.1rem;
 }
 
-.single__testimonial p {
+.single__testimonial h6 {
   font-size: 0.8rem;
   color: #fff;
 }
