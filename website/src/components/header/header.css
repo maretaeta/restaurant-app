@@ -6,7 +6,7 @@
   top: 0;
   left: 0;
   z-index: 9;
-  background: #141124;
+  background: #221E1A;
 }
 
 .navigation {
@@ -28,13 +28,15 @@
 }
 
 .nav__item a {
-  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  color: #f1f1f1;
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.05s;
 }
 
 .nav__item a:hover {
-  color: #f5b70a;
+  font-weight: 700;
+  color: #D41B27;
 }
 
 .custom__search {
@@ -43,7 +45,10 @@
   padding: 10px 25px;
   height: 35px;
   border-radius: 50px;
-  background: #0a071a;
+  background: #D41B27;
+}
+::placeholder{
+  color: #ffffff;
 }
 
 .custom__search input {

@@ -41,7 +41,7 @@ const Header = () => {
               <span>
                 <i class="ri-restaurant-2-line"></i>
               </span>{" "}
-              Chef Food
+              Eat More Restaurant
             </h2>
           </div>
 
