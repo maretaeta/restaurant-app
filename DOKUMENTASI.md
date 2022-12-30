@@ -1,13 +1,31 @@
 # Dokumentasi Tugas 2: Membuat Website Restoran dengan ReactJS
-### Nama Kelompok: ????
-### Anggota Kelompok
-### 1. L200XXXXXX Nama Lengkap 1
-### 2. L200XXXXXX Nama Lengkap 2
-### 3. L200XXXXXX Nama Lengkap 3
-### 4. L200XXXXXX Nama Lengkap 4
-### 5. L200XXXXXX Nama Lengkap 5
-### 6. L200XXXXXX Nama Lengkap 6
 
 <br>
 
-Silahkan anda tuliskan dokumentasi tugas anda di sini
+### Nama Kelompok : Kelompok 3
+
+### Anggota Kelompok :
+
+### 1. L200200141 Syifaul Qolbi Auliya' Darojat (Mengerjakan endpoint Menu)
+
+### 2. L200200167 Mareta Nur Isnaini (Mengerjakan endpoint Profile)
+
+### 3. L200200169 Doni Wahyu Saputro (Mengerjakan endpoint Faq)
+
+### 4. L200200180 Abdul Aziz (Mengerjakan endpoint Kategori Menu)
+
+### 5. L200204017 Farah Danisha Salam (Mengerjakan endpoint Opening-hour)
+
+<br>
+
+### Cara Menjalankan Website :
+
+<br>
+
+### Sumber/Referensi dan Template :
+
+### Youtube : https://youtu.be/ZDhGfylxLaE
+
+### Github : https://github.com/codingwithmuhib/React-Food-Restaurant-Webite
+
+<br>
