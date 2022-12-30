@@ -2,6 +2,7 @@ import React from "react";
 import { getProfile } from "../../api";
 import "./footer.css";
 import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
+import Opening from "../opening-hours/opening";
 import { useEffect } from "react";
 
 const footerLinks = [
@@ -59,7 +60,7 @@ const Footer = () => {
 
             <Col lg="3" md="4" sm="6">
               <h5 className="footer__link-title"></h5>
-
+              <Opening/>
             </Col>j
 
         

@@ -1,8 +1,6 @@
 import React from "react";
 import { Container } from "reactstrap";
 import Slider from "react-slick";
-import Opening from "../opening-hours/opening";
-
 import { sliderData } from "../../assets/fake-data/slider";
 import "./slider.css";
 
@@ -17,7 +15,6 @@ const HeroSlider = () => {
   };
   return (
     <section>
-      <Opening/>
       <Container>
         <Slider {...settings}>
           {sliderData.map((item) => (
