@@ -16,10 +16,21 @@
 
 ### Cara Menjalankan Website :
 
-1. Menjalankan server terlebih dahulu
-2. Buka terminal cmd baru
-3. Masuk ke direktori website
-4. Mengetikkan "npm start"
+### A. Menjalankan server
+
+1. Buka terminal cmd
+2. Masuk ke direktori file tugas yang telah dibuat
+3. Lalu ketikkan "cd .venv/Script kemudian enter
+4. Ketikkan "activate" kemudian enter
+5. Dan serven pun sudah dijalanakan
+
+### B. Menjalankan Website
+
+1. Buka terminal cmd baru
+2. Masuk ke direktori website
+3. Mengetikkan "npm i"
+4. Kemudian " npm run start"
+5. Tampilan website akan muncul dalam browser
 
 <br>
 
