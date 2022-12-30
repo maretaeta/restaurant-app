@@ -61,7 +61,8 @@ const Footer = () => {
             <Col lg="3" md="4" sm="6">
               <h5 className="footer__link-title"></h5>
               <Opening/>
-            </Col>j
+            </Col>
+
 
         
 
@@ -99,7 +100,7 @@ const Footer = () => {
         <Container>
           <Row>
             <Col lg="12">
-              <p>copyright 2022, developed by Kelompok 3. All rights reserved</p>
+              <p>developed by Kelompok 3.</p>
             </Col>
           </Row>
         </Container>
