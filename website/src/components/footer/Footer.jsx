@@ -59,7 +59,6 @@ const Footer = () => {
             </Col>
 
             <Col lg="3" md="4" sm="6">
-              <h5 className="footer__link-title"></h5>
               <Opening/>
             </Col>
 
@@ -100,6 +99,8 @@ const Footer = () => {
         <Container>
           <Row>
             <Col lg="12">
+
+              <p>Copyright &copy; Developed by Kelompok 3.</p>
               <p>developed by Kelompok 3.</p>
             </Col>
           </Row>
