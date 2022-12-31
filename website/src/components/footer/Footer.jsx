@@ -99,7 +99,7 @@ const Footer = () => {
         <Container>
           <Row>
             <Col lg="12">
-              <p>developed by Kelompok 3.</p>
+              <p>Copyright &copy; Developed by Kelompok 3.</p>
             </Col>
           </Row>
         </Container>
