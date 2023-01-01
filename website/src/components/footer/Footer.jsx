@@ -34,7 +34,6 @@ const Footer = () => {
     });
   }, []);
 
-
   return (
     <footer id="footer" className="footer">
       <div className="footer__top">
@@ -59,32 +58,29 @@ const Footer = () => {
             </Col>
 
             <Col lg="3" md="4" sm="6">
-              <Opening/>
+              <Opening />
             </Col>
-
-
-        
 
             <Col lg="3" md="4" sm="6">
               <h5 className="footer__link-title">Contact</h5>
 
               <ListGroup>
                 <ListGroupItem className="link__item d-flex align-items-center gap-3">
-                  <i class="ri-map-pin-line"></i> 
+                  <i class="ri-map-pin-line"></i>
                   {profile.map((item) => (
                     <span>{item.address}</span>
                   ))}
                 </ListGroupItem>
 
                 <ListGroupItem className="link__item d-flex align-items-center gap-3">
-                  <i class="ri-mail-line"></i> 
+                  <i class="ri-mail-line"></i>
                   {profile.map((item) => (
                     <span>{item.email}</span>
                   ))}
                 </ListGroupItem>
 
                 <ListGroupItem className="link__item d-flex align-items-center gap-3">
-                  <i class="ri-phone-line"></i> 
+                  <i class="ri-phone-line"></i>
                   {profile.map((item) => (
                     <span>{item.phone}</span>
                   ))}
@@ -99,9 +95,7 @@ const Footer = () => {
         <Container>
           <Row>
             <Col lg="12">
-
-              <p>Copyright &copy; Developed by Kelompok 3.</p>
-              <p>developed by Kelompok 3.</p>
+              <p>Copyright &copy; Developed by Kelompok 3</p>
             </Col>
           </Row>
         </Container>
