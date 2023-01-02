@@ -15,5 +15,6 @@
 
 .open-day{
     display: inline-block;
-    width: 5em;
+    width: 4em;
+    padding-top: 10px;
 }
