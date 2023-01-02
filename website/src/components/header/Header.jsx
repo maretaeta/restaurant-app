@@ -56,15 +56,6 @@ const Header = () => {
                   </li>
                 ))}
               </ul>
-
-              <div className="menu__right">
-                <div className="custom__search ">
-                  <input type="text" placeholder="search item...." />
-                  <span>
-                    <i class="ri-search-line"></i>
-                  </span>
-                </div>
-              </div>
             </div>
           </div>
 

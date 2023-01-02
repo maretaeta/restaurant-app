@@ -15,7 +15,7 @@ const Home = () => {
       <HeroSlider />
       <MenuPack />
       {/* <Menu /> */}
-      <ChooseUs />
+      {/* <ChooseUs /> */}
       <Testimonials />
       <Footer />
     </Fragment>
