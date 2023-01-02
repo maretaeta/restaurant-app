@@ -29,6 +29,15 @@
   margin-bottom: 0;
 }
 
+.gambar{
+  width: 60px;
+  height: 60px;
+}
+
+.deskripsi{
+  padding-left: 20px;
+}
+
 @media only screen and (max-width: 992px) {
   .link__item a {
     font-size: 0.8rem;

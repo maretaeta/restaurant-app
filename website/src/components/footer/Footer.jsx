@@ -39,19 +39,22 @@ const Footer = () => {
       <div className="footer__top">
         <Container>
           <Row>
-            <Col lg="4" md="4" sm="6">
+            <Col lg="6" md="4" sm="6">
               <div className="logo">
+                
                 <h2 className=" d-flex align-items-center gap-1 mb-4">
                   <span>
-                    <i class="ri-restaurant-2-line"></i>
-                  </span>{" "}
+                    {profile.map((item) => (
+                    <img src={item.logo} className="gambar" />
+                  ))}
+                  </span>
                   {profile.map((item) => (
-                    <span>{item.name}</span>
+                    <span>{item.name} </span>
                   ))}
                 </h2>
                 <p>
                   {profile.map((item) => (
-                    <span>{item.about_us}</span>
+                    <p  className="deskripsi">{item.about_us}</p>
                   ))}
                 </p>
               </div>

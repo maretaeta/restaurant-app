@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import "./header.css";
-
+import { getProfile } from "../../api";
 import { Container } from "reactstrap";
 
 const navLinks = [
@@ -32,6 +32,14 @@ const Header = () => {
 
   const menuToggle = () => menuRef.current.classList.toggle("active__menu");
 
+  const [profile, setProfile] = React.useState([]);
+
+  React.useEffect(() => {
+    getProfile().then((result) => {
+      setProfile(result);
+    });
+  }, []);
+
   return (
     <header className="header">
       <Container>
@@ -39,9 +47,13 @@ const Header = () => {
           <div className="logo">
             <h2 className=" d-flex align-items-center gap-1">
               <span>
-                <i class="ri-restaurant-2-line"></i>
+              {profile.map((item) => (
+                    <img src={item.logo} className="gambar" />
+                  ))}
               </span>{" "}
-              Eat More Restaurant
+                {profile.map((item) => (
+                    <span>{item.name} </span>
+                  ))}
             </h2>
           </div>
 
