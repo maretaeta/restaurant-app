@@ -67,16 +67,4 @@ const Testimonials = () => {
   );
 };
 
-{/* <div>
-                  {faq.map((item) => (
-                    <div className="single__testimonial" key={item.id}>
-                    
-                      <p className="review__content" >
-                        {item.question}
-                      </p>
-                      <p>{item.answer}</p>
-                    </div>
-                    ))}
-                  </div> */}
-
 export default Testimonials;

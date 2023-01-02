@@ -25,3 +25,8 @@ export const getOpening = async () => {
   const opening = await axios.get(`${baseUrl}/api/opening-hour/`);
   return opening.data;
 };
+
+export const getPopular = async () => {
+  const popular = await axios.get(`${baseUrl}/api/menus/popular/`);
+  return popular.data;
+}
