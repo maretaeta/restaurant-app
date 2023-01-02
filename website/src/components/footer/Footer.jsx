@@ -4,6 +4,7 @@ import "./footer.css";
 import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
 import Opening from "../opening-hours/opening";
 import { useEffect } from "react";
+import logo from "../../assets/images/logo.png";
 
 const footerLinks = [
   {
@@ -44,7 +45,7 @@ const Footer = () => {
                 <h2 className=" d-flex align-items-center gap-1 mb-4">
                   <span>
                     {profile.map((item) => (
-                    <img src={item.logo} className="foto" />
+                    <img src={item.logo} className="foto" alt=""/>
                   ))}
                   </span>
                   {profile.map((item) => (
