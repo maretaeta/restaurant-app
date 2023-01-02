@@ -21,7 +21,6 @@
 }
 
 .logo h2 {
-  display: ;
   margin-bottom: 0;
 }
 
@@ -93,7 +92,7 @@
   top: -2px;
   right: -3px;
   z-index: 12;
-  color: #141124;
+  color: #0a071a7e;
   font-size: 0.8rem;
   font-weight: 700;
 }
