@@ -15,7 +15,7 @@ const Opening = () => {
 
   return (
     <div className="wrap-opening">
-      Jam buka:
+      Jam buka :
       {dataOpening.map((open) => (
         <p key={open.id}>
           {open.day} ({open.opening_time.slice(0, 5)} -{" "}

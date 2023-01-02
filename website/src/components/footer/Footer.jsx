@@ -41,11 +41,10 @@ const Footer = () => {
           <Row>
             <Col lg="6" md="4" sm="6">
               <div className="logo">
-                
                 <h2 className=" d-flex align-items-center gap-1 mb-4">
                   <span>
                     {profile.map((item) => (
-                    <img src={item.logo} className="gambar" />
+                    <img src={item.logo} className="foto" />
                   ))}
                   </span>
                   {profile.map((item) => (

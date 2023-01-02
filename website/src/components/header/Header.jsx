@@ -48,7 +48,7 @@ const Header = () => {
             <h2 className=" d-flex align-items-center gap-1">
               <span>
               {profile.map((item) => (
-                    <img src={item.logo} className="gambar" />
+                    <img src={item.logo} className="foto" />
                   ))}
               </span>{" "}
                 {profile.map((item) => (
