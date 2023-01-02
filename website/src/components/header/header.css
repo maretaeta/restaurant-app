@@ -6,7 +6,7 @@
   top: 0;
   left: 0;
   z-index: 9;
-  background: #221E1A;
+  background: #221e1a;
 }
 
 .navigation {
@@ -15,7 +15,13 @@
   justify-content: space-between;
 }
 
+.logo-resto {
+  width: 40px;
+  margin-right: 10px;
+}
+
 .logo h2 {
+  display: ;
   margin-bottom: 0;
 }
 
@@ -28,7 +34,7 @@
 }
 
 .nav__item a {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #f1f1f1;
   cursor: pointer;
   transition: 0.05s;
@@ -36,7 +42,7 @@
 
 .nav__item a:hover {
   font-weight: 700;
-  color: #D41B27;
+  color: #d41b27;
 }
 
 .custom__search {
@@ -45,9 +51,9 @@
   padding: 10px 25px;
   height: 35px;
   border-radius: 50px;
-  background: #D41B27;
+  background: #d41b27;
 }
-::placeholder{
+::placeholder {
   color: #ffffff;
 }
 

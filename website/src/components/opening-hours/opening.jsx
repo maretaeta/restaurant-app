@@ -18,7 +18,8 @@ const Opening = () => {
       Jam buka :
       {dataOpening.map((open) => (
         <p key={open.id}>
-          {open.day} ({open.opening_time.slice(0, 5)} -{" "}
+          <div className="open-day"> {open.day} </div> 
+          ({open.opening_time.slice(0, 5)} -{" "} 
           {open.closing_time.slice(0, 5)} WIB){" "}
         </p>
       ))}

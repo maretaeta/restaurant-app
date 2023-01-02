@@ -36,8 +36,6 @@
 4. Kemudian " npm run start"
 5. Tampilan website akan muncul dalam browser
 
-
-
 ### Sumber/Referensi dan Template :
 
 ### Youtube : https://youtu.be/ZDhGfylxLaE

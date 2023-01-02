@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import "./header.css";
 import { getProfile } from "../../api";
 import { Container } from "reactstrap";
+import logo from "../../assets/images/logo.png";
 
 const navLinks = [
   {

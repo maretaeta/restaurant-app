@@ -1,5 +1,15 @@
 from django.db import models
 
+class Popular(models.Model):
+    name = models.CharField(max_length=128)
+    image = models.ImageField(upload_to='images/')
+    description = models.TextField()
+
+    def __str__(self) -> str:
+        return f'{self.name}'
+
+    class Meta:
+        verbose_name_plural = 'Populars'
 
 class Category(models.Model):
     name = models.CharField(max_length=64)
