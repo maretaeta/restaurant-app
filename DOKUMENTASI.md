@@ -42,4 +42,6 @@
 
 ### Github : https://github.com/codingwithmuhib/React-Food-Restaurant-Webite
 
+### FE Deployment: https://restaurant-one-vert.vercel.app/
+
 <br>
