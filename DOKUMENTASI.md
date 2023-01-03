@@ -42,6 +42,7 @@
 
 ### Github : https://github.com/codingwithmuhib/React-Food-Restaurant-Webite
 
-### FE Deployment: https://restaurant-one-vert.vercel.app/
+### Frontend Deployment: https://restaurant-one-vert.vercel.app/
+### Backend Deployment : https://eat-more.up.railway.app/swagger-ui/
 
 <br>
