@@ -8,9 +8,9 @@
 
 <br>
 
-1. L200200141 Syifaul Qolbi Auliya' Darojat (Mengerjakan endpoint Menu)
+1. L200200141 Syifaul Qolbi Auliya' Darojat (Mengerjakan endpoint Menu, Deploy Backend ke railway, Create endpoint popular menu)
 2. L200200167 Mareta Nur Isnaini (Mengerjakan endpoint Profile)
-3. L200200169 Doni Wahyu Saputro (Mengerjakan endpoint Faq)
+3. L200200169 Doni Wahyu Saputro (Mengerjakan endpoint Faq, Deploy Frontend ke Vercel)
 4. L200200180 Abdul Aziz (Mengerjakan endpoint Kategori Menu)
 5. L200204017 Farah Danisha Salam (Mengerjakan endpoint Opening-hour)
 
