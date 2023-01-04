@@ -23,19 +23,20 @@ const HeroSlider = () => {
     });
   }, []);
 
-
   return (
     <section>
       <Container>
-      <h2 className="popular">Popular Menu</h2>
+        <h2 className="popular">Popular Menu</h2>
         <Slider {...settings}>
           {popular.map((item) => (
-            <div >
-              <div key={item.id} className="slider__wrapper d-flex align-items-center justify-content-between pt-5">
+            <div>
+              <div
+                key={item.id}
+                className="slider__wrapper d-flex align-items-center justify-content-between pt-5"
+              >
                 <div className="slider__content w-50 ps-4 ">
                   <h2 className="mb-3 ">{item.name}</h2>
                   <p>{item.description}</p>
-                  {/* <button className="btn">Explore Food</button> */}
                 </div>
 
                 <div className="slider__img w-50">
