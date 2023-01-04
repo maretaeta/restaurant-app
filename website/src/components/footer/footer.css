@@ -25,8 +25,9 @@
 }
 
 .footer__bottom p {
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin-bottom: 0;
+  text-align: center;
 }
 
 .foto{
@@ -52,12 +53,21 @@
   }
 
   .footer__bottom p {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
+    text-align: center;
   }
 
   .footer__bottom {
     padding: 15px 0px;
   }
 
-
+  @media only screen and (max-width: 767px){
+    .footer__link-title {
+      margin-top: 16px;
+      margin-left: 40px;
+    }
+    .list-group{
+      margin-left: 40px;
+    }
+  }
 }
