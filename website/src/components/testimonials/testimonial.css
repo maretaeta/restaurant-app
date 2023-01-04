@@ -1,9 +1,20 @@
 .single__testimonial h5 {
   color: #f5b70a;
-  font-size: 1.1rem;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 16px;
+  font-size: 28px;
 }
 
 .single__testimonial h6 {
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #fff;
+}
+
+.single__testimonial h2 {
+  font-family: "Poppins", sans-serif;
   font-size: 0.8rem;
   color: #fff;
 }
@@ -11,7 +22,16 @@
 .single__testimonial {
   padding: 20px;
 }
-
+.slick-list{
+  margin-left: 0px;
+  width: 100%;
+}
+.slider__content > h2{
+  color: #f5b70a;
+  font-size: 48px;
+  font-weight: 800;
+  font-family: 'Poppins', sans-serif;
+}
 @media only screen and (max-width: 992px) {
   .slider__content h2 {
     font-size: 1.5rem;

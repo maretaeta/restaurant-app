@@ -34,9 +34,9 @@ const Testimonials = () => {
       <Container>
         <Row>
           <Col lg="8" sm="12" md="12" className="m-auto">
-            <div className="slider__wrapper d-flex align-items-center gap-5  ">
-              <div className="slider__content w-50">
-                <h2 className="mb-4 ps-3">Frequently Asked Questions</h2>
+            <div className="slider__wrapper d-flex align-items-center justify-content-center gap-5  ">
+              <div className="slider__content w-100">
+                <h2 className="mb-3 ps-2">Frequently Asked Questions</h2>
                 
                 <Slider {...settings}>
                 {faq.map((item) => (
@@ -54,10 +54,6 @@ const Testimonials = () => {
                   
                 </Slider>
                 
-              </div>
-
-              <div className="slider__img w-50">
-                <img src={testimonialImg} alt="" className="w-100" />
               </div>
             </div>
           </Col>
