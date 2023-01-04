@@ -60,5 +60,13 @@
     padding: 15px 0px;
   }
 
-
+  @media only screen and (max-width: 767px){
+    .footer__link-title {
+      margin-top: 16px;
+      margin-left: 40px;
+    }
+    .list-group{
+      margin-left: 40px;
+    }
+  }
 }
