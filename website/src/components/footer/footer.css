@@ -25,6 +25,7 @@
 }
 
 .footer__bottom p {
+  text-align: center;
   font-size: 0.9rem;
   margin-bottom: 0;
 }

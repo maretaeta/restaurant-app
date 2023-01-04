@@ -92,7 +92,7 @@
   top: -2px;
   right: -3px;
   z-index: 12;
-  color: #0a071a7e;
+  color: #221e1a;
   font-size: 0.8rem;
   font-weight: 700;
 }
@@ -118,7 +118,7 @@
     width: 250px;
     height: 100%;
     z-index: 100;
-    background: #141124;
+    background: #221e1a;
     flex-direction: column;
     box-shadow: 5px 5px 15px -5px #f5b70a;
     justify-content: center !important;
